@@ -7,5 +7,5 @@
 (goog-define alert-timeout-ms 3000)
 
 ;; ====
-(defonce websocket-uri-base "ws://localhost:")
+(defonce websocket-uri-base "ws://0.0.0.0:")
 (defonce websocket-uri-route "/flow-socket")
